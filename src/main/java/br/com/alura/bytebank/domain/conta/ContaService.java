@@ -15,7 +15,7 @@ public class ContaService {
 
     private ConnectionFactory connection;
 
-    ContaService() {
+    public ContaService() {
         this.connection = new ConnectionFactory();
     }
 
